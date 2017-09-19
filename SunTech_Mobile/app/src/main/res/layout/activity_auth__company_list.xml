@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.suntech.software.fragment.Fragment_Auth_Company"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

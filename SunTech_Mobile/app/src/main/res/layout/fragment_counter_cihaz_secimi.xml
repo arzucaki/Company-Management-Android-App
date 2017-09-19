@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:orientation="vertical"
+    tools:background="@color/backcolor">
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Seri No Giriniz ...."
+        android:inputType="textMultiLine"
+        android:lines="1"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnCihazlariGetir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Getir" />
+
+    <ListView
+        android:id="@+id/listCompany"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
